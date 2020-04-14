@@ -15,10 +15,7 @@ User.create!( name: "Example User", email: "example@railstutorial.org", password
   password = "password"
   User.create!( name: name, email: email, password: password, password_confirmation: password, activated: true, activated_at: Time.zone.now )
 end
-<<<<<<< HEAD
 
-=======
->>>>>>> c2c2f448c62b18468cad36ae02e0dbe5ca0db534
 # Generate microposts for a subset of users.
 users = User.order(:created_at).take(6)
 50.times do

@@ -3,24 +3,11 @@ orange:
   created_at: <%= 10.minutes.ago %>
   user: michael
 
-<<<<<<< HEAD
 tau_manifesto:
   content: "Check out the @tauday site by @mhartl: https://tauday.com"
   created_at: <%= 3.years.ago %>
   user: michael
 
-=======
-orange:
-  content: "I just ate an orange!"
-  created_at: <%= 10.minutes.ago %>
-  user: michael
-
-tau_manifesto:
-  content: "Check out the @tauday site by @mhartl: https://tauday.com"
-  created_at: <%= 3.years.ago %>
-  user: michael
-
->>>>>>> c2c2f448c62b18468cad36ae02e0dbe5ca0db534
 cat_video:
   content: "Sad cats are sad: https://youtu.be/PKffm2uI4dk"
   created_at: <%= 2.hours.ago %>
@@ -30,11 +17,7 @@ most_recent:
   content: "Writing a short test"
   created_at: <%= Time.zone.now %>
   user: michael
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> c2c2f448c62b18468cad36ae02e0dbe5ca0db534
 <% 30.times do |n| %>
 micropost_<%= n %>:
   content: <%= Faker::Lorem.sentence(word_count: 5) %>
